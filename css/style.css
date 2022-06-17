@@ -2,8 +2,7 @@ html {
     background: url(/images/bg-pattern-card.svg);
     background-size: cover;
     font-family: 'Kumbh Sans', sans-serif;
-    font-size: 18px;
-  }
+}
 
 span {
     color: gray;
@@ -11,40 +10,39 @@ span {
 }
 
 .container {
-    width: 400px;
-    height: 500px;
-    margin: 200px auto;
+    width: 50%;
+    margin: 10rem auto;
     text-align: center;
     background: #00C9FF;
     background: linear-gradient(180deg, #92FE9D, #00C9FF, #edf6f7 30%); 
-    border-radius: 25px;
+    border-radius: 1.5rem;
 }
 
 img {
     border-radius: 50%;
     border: 5px solid white;
-    margin-top: 100px;
+    margin-top: 5rem;
 }
 
 .user {
-    padding-bottom: 30px;;
+    padding-bottom: 2rem;
     border-bottom: 1px solid lightgray;
 }
 
 .stats {
     display: flex;
     justify-content: space-evenly;
-    padding: 30px 0;
+    padding: 4rem 0;
     font-weight: bold;
-    line-height: .5px;
+    line-height: .5rem;
 }
 
 .stats span {
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 .footer {
-    font-size: 11px; 
+    font-size: .75rem; 
     text-align: center;
 }
 
